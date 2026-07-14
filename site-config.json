@@ -1,0 +1,63 @@
+{
+  "companyName": "Acorn Taxis",
+  "legalName": "Acorn Taxis Limited",
+  "tagline": "Reliable taxis and private hire in Tamworth",
+  "website": "https://www.acorntaxis.co.uk",
+  "address": {
+    "line1": "20 Lichfield St",
+    "city": "Tamworth",
+    "postcode": "B79 7QD",
+    "country": "United Kingdom",
+    "display": "Acorn Taxis, 20 Lichfield St, Tamworth, B79 7QD"
+  },
+  "phone": {
+    "display": "01827 63333",
+    "tel": "tel:+44182763333",
+    "telRaw": "+44182763333"
+  },
+  "email": "acorntaxisltd@gmail.com",
+  "hours": "Open 24/7",
+  "establishedYears": 50,
+  "fleetSize": "Over 100 vehicles",
+  "booking": {
+    "label": "Book Online",
+    "url": "https://booker.cab9.app?company=ACO&code=0951",
+    "openInNewTab": true,
+    "handoffNote": "You will be taken to our online booking service."
+  },
+  "apps": {
+    "android": "https://play.google.com/store/apps/details?id=com.autocab.taxibooker.acorntaxis.tamworth",
+    "apple": "https://apps.apple.com/nz/app/acorn-taxis/id1078919421"
+  },
+  "social": {
+    "facebook": "https://www.facebook.com/p/Acorn-Taxis-100083595871568/",
+    "instagram": "https://www.instagram.com/acorntaxis_tamworth/",
+    "linkedin": "https://www.linkedin.com/company/acorn-taxis-tamworth"
+  },
+  "airports": [
+    "Birmingham",
+    "Manchester",
+    "Heathrow",
+    "Luton",
+    "East Midlands"
+  ],
+  "vehicles": [
+    "Saloon",
+    "Estate",
+    "5–8 seater"
+  ],
+  "paymentMethods": [
+    "Cash",
+    "Card in the app",
+    "Card in the vehicle"
+  ],
+  "privateHireNote": "Private hire journeys are pre-book only.",
+  "contactFormNote": "Please note we do not take bookings by email. Use Book Online or call us.",
+  "callsRecordedNote": "Please note all our calls are recorded for training and monitoring purposes.",
+  "partnerOrganisations": [
+    "NHS",
+    "Aston Villa",
+    "Staffordshire Council"
+  ],
+  "partnerLogoNote": "Use client-supplied logos only. Caption as organisations we serve — not endorsements."
+}

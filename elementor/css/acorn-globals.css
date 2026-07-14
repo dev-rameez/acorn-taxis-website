@@ -1,0 +1,161 @@
+/**
+ * Acorn Taxis — Elementor global helpers
+ * Paste into: Elementor → Site Settings → Custom CSS
+ * or Appearance → Customize → Additional CSS
+ */
+
+:root {
+  --acorn-navy: #0b1f3a;
+  --acorn-navy-deep: #071627;
+  --acorn-gold: #c4a35a;
+  --acorn-gold-soft: #d4b875;
+  --acorn-off-white: #f7f5f1;
+  --acorn-surface: #ffffff;
+  --acorn-charcoal: #1c1c1c;
+  --acorn-muted: #5c6570;
+  --acorn-border: #e4dfd6;
+}
+
+/* Improve default Elementor button feel */
+.acorn-btn-primary .elementor-button {
+  background-color: var(--acorn-gold) !important;
+  color: var(--acorn-navy) !important;
+  border-radius: 4px;
+  font-weight: 600;
+  min-height: 48px;
+  padding: 14px 28px;
+}
+
+.acorn-btn-primary .elementor-button:hover,
+.acorn-btn-primary .elementor-button:focus {
+  background-color: var(--acorn-gold-soft) !important;
+  color: var(--acorn-navy) !important;
+}
+
+.acorn-btn-secondary .elementor-button {
+  background-color: transparent !important;
+  color: var(--acorn-navy) !important;
+  border: 2px solid var(--acorn-navy) !important;
+  border-radius: 4px;
+  font-weight: 600;
+  min-height: 48px;
+}
+
+.acorn-btn-secondary .elementor-button:hover,
+.acorn-btn-secondary .elementor-button:focus {
+  background-color: var(--acorn-navy) !important;
+  color: #fff !important;
+}
+
+/* Sticky mobile call / book bar */
+.acorn-sticky-cta {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  display: none;
+  background: var(--acorn-navy-deep);
+  box-shadow: 0 -4px 16px rgba(0, 0, 0, 0.18);
+}
+
+.acorn-sticky-cta__inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  padding: 10px 12px;
+  padding-bottom: max(10px, env(safe-area-inset-bottom));
+}
+
+.acorn-sticky-cta a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.acorn-sticky-cta__call {
+  background: transparent;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+}
+
+.acorn-sticky-cta__book {
+  background: var(--acorn-gold);
+  color: var(--acorn-navy);
+}
+
+@media (max-width: 767px) {
+  .acorn-sticky-cta {
+    display: block;
+  }
+
+  /* Prevent sticky bar covering footer content */
+  body {
+    padding-bottom: 72px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    scroll-behavior: auto !important;
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* Simple service tiles — optional if using HTML widget */
+.acorn-service-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 1024px) {
+  .acorn-service-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .acorn-service-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.acorn-service-tile {
+  background: var(--acorn-surface);
+  border: 1px solid var(--acorn-border);
+  border-radius: 6px;
+  padding: 24px;
+}
+
+.acorn-service-tile h3 {
+  margin: 0 0 8px;
+  color: var(--acorn-navy);
+  font-size: 1.15rem;
+}
+
+.acorn-service-tile p {
+  margin: 0 0 16px;
+  color: var(--acorn-muted);
+}
+
+.acorn-service-tile a {
+  color: var(--acorn-navy);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+/* Focus visibility */
+a:focus-visible,
+button:focus-visible,
+.elementor-button:focus-visible {
+  outline: 3px solid var(--acorn-gold);
+  outline-offset: 2px;
+}
