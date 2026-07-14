@@ -2,6 +2,12 @@
 
 Elementor build pack for **Acorn Taxis**, Tamworth — navy/gold, mobile-first, booking via Cab9 (no custom booker).
 
+## Deploy the design preview (Vercel)
+
+Config is ready in the repo root (`vercel.json`). Output directory is `preview/`.
+
+See [`docs/deploy-vercel.md`](docs/deploy-vercel.md) for dashboard and CLI steps.
+
 ## Live booking URL
 
 `https://booker.cab9.app?company=ACO&code=0951`

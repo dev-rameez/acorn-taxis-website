@@ -1,0 +1,10 @@
+.git
+.vercel
+**/node_modules
+CONTENT_FLAGS.md
+content
+design
+docs
+elementor
+site-config.json
+README.md
