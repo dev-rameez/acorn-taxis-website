@@ -461,7 +461,7 @@ h3 {
   overflow: hidden;
   background:
     linear-gradient(105deg, rgba(7, 22, 39, 0.88) 12%, rgba(7, 22, 39, 0.55) 48%, rgba(7, 22, 39, 0.28) 100%),
-    url("../img/cab1.jpg") 68% center / cover no-repeat;
+    url("../img/hero-private-hire.jpg") 58% 45% / cover no-repeat;
   color: #fff;
   min-height: min(82vh, 680px);
   display: flex;
@@ -472,7 +472,7 @@ h3 {
   .hero {
     background:
       linear-gradient(180deg, rgba(7, 22, 39, 0.55) 0%, rgba(7, 22, 39, 0.78) 45%, rgba(7, 22, 39, 0.92) 100%),
-      url("../img/cab1.jpg") 55% 35% / cover no-repeat;
+      url("../img/hero-private-hire.jpg") 55% 40% / cover no-repeat;
     min-height: min(88vh, 640px);
   }
 }

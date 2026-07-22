@@ -21,7 +21,7 @@ Book online or call — Tamworth taxis and private hire, open 24/7.
 
 **Do not place** stat pills (50 years / 100 vehicles / 24/7) in the first viewport — those belong in Why Acorn.
 
-**Image:** Full-bleed hero banner using fleet photo `preview/img/cab1.jpg` (black taxi). Overlay stays left-heavy so type stays readable; mobile uses a bottom-weighted gradient.
+**Image:** Full-bleed hero using `preview/img/hero-private-hire.jpg` — unmarked UK RHD private-hire saloon (no taxi roof light), suitable for a Tamworth operator at 20 Lichfield St, B79 7QD. Working stock until client supplies real fleet photography at/near that address. Overlay stays left-heavy for readable type.
 
 ---
 

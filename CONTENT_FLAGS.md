@@ -5,6 +5,7 @@ Do not invent answers for these. Confirm with the client before publishing.
 | Item | Status | Notes |
 |------|--------|--------|
 | New logo files (SVG/PNG) | Pending | Use placeholder logo until brand pack arrives |
+| Homepage hero fleet photo at/near 20 Lichfield St | Pending | Preview uses working UK RHD unmarked private-hire saloon stock (`preview/img/hero-private-hire.jpg`) — replace with client fleet photography when available |
 | Exact hex codes for navy / gold | Pending | Working modern palette in `design/elementor-globals.md` (gold `#D4A84B`, off-white `#F5F7FA`) — adjust when brand guidelines arrive |
 | Google Place ID / reviews embed code | Pending | Homepage reviews section has a placeholder slot |
 | Partner logos (NHS, Aston Villa, Staffordshire Council) | Pending | Layout reserved on Account Facilities — wait for client files |
