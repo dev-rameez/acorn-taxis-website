@@ -5,7 +5,7 @@ Do not invent answers for these. Confirm with the client before publishing.
 | Item | Status | Notes |
 |------|--------|--------|
 | New logo files (SVG/PNG) | Pending | Use placeholder logo until brand pack arrives |
-| Exact hex codes for navy / gold | Pending | Working palette in `design/elementor-globals.md` — adjust when brand guidelines arrive |
+| Exact hex codes for navy / gold | Pending | Working modern palette in `design/elementor-globals.md` (gold `#D4A84B`, off-white `#F5F7FA`) — adjust when brand guidelines arrive |
 | Google Place ID / reviews embed code | Pending | Homepage reviews section has a placeholder slot |
 | Partner logos (NHS, Aston Villa, Staffordshire Council) | Pending | Layout reserved on Account Facilities — wait for client files |
 | Carbon footprint specific claims | Pending | Page uses modest general copy only — no unverified emissions figures |

@@ -7,29 +7,35 @@
 :root {
   --acorn-navy: #0b1f3a;
   --acorn-navy-deep: #071627;
-  --acorn-gold: #c4a35a;
-  --acorn-gold-soft: #d4b875;
-  --acorn-off-white: #f7f5f1;
+  --acorn-navy-mid: #143052;
+  --acorn-gold: #d4a84b;
+  --acorn-gold-soft: #e0ba63;
+  --acorn-off-white: #f5f7fa;
   --acorn-surface: #ffffff;
   --acorn-charcoal: #1c1c1c;
   --acorn-muted: #5c6570;
-  --acorn-border: #e4dfd6;
+  --acorn-border: #d8dee6;
 }
 
 /* Improve default Elementor button feel */
 .acorn-btn-primary .elementor-button {
   background-color: var(--acorn-gold) !important;
-  color: var(--acorn-navy) !important;
+  color: var(--acorn-navy-deep) !important;
   border-radius: 4px;
-  font-weight: 600;
-  min-height: 48px;
+  font-weight: 700;
+  min-height: 52px;
   padding: 14px 28px;
+  letter-spacing: -0.01em;
+  box-shadow: 0 4px 14px rgba(212, 168, 75, 0.35);
+  transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .acorn-btn-primary .elementor-button:hover,
 .acorn-btn-primary .elementor-button:focus {
   background-color: var(--acorn-gold-soft) !important;
-  color: var(--acorn-navy) !important;
+  color: var(--acorn-navy-deep) !important;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(212, 168, 75, 0.4);
 }
 
 .acorn-btn-secondary .elementor-button {
@@ -37,14 +43,16 @@
   color: var(--acorn-navy) !important;
   border: 2px solid var(--acorn-navy) !important;
   border-radius: 4px;
-  font-weight: 600;
-  min-height: 48px;
+  font-weight: 700;
+  min-height: 52px;
+  transition: background 0.2s ease, color 0.2s ease, transform 0.2s ease;
 }
 
 .acorn-btn-secondary .elementor-button:hover,
 .acorn-btn-secondary .elementor-button:focus {
   background-color: var(--acorn-navy) !important;
   color: #fff !important;
+  transform: translateY(-2px);
 }
 
 /* Sticky mobile call / book bar */
@@ -73,7 +81,7 @@
   justify-content: center;
   min-height: 48px;
   border-radius: 4px;
-  font-weight: 600;
+  font-weight: 700;
   text-decoration: none;
   font-size: 15px;
 }
@@ -86,7 +94,7 @@
 
 .acorn-sticky-cta__book {
   background: var(--acorn-gold);
-  color: var(--acorn-navy);
+  color: var(--acorn-navy-deep);
 }
 
 @media (max-width: 767px) {
@@ -112,7 +120,8 @@
 .acorn-service-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  gap: 0;
+  border-top: 1px solid var(--acorn-border);
 }
 
 @media (max-width: 1024px) {
@@ -128,16 +137,18 @@
 }
 
 .acorn-service-tile {
-  background: var(--acorn-surface);
-  border: 1px solid var(--acorn-border);
-  border-radius: 6px;
-  padding: 24px;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid var(--acorn-border);
+  border-radius: 0;
+  padding: 24px 16px 24px 0;
 }
 
 .acorn-service-tile h3 {
   margin: 0 0 8px;
   color: var(--acorn-navy);
   font-size: 1.15rem;
+  letter-spacing: -0.02em;
 }
 
 .acorn-service-tile p {
@@ -147,9 +158,10 @@
 
 .acorn-service-tile a {
   color: var(--acorn-navy);
-  font-weight: 600;
-  text-decoration: underline;
-  text-underline-offset: 3px;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 2px solid var(--acorn-gold);
+  padding-bottom: 2px;
 }
 
 /* Focus visibility */

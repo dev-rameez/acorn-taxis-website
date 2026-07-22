@@ -8,59 +8,87 @@
 ---
 
 ## 1. Hero
-**Eyebrow (optional):** Tamworth taxis & private hire  
+**Brand (hero-level):** Acorn Taxis  
 
 **H1:** Reliable local taxis, day and night  
 
 **Supporting text:**  
-Acorn Taxis has served Tamworth for 50 years. With over 100 vehicles and a team available 24/7, you can book online or call us whenever you need a journey.
+Book online or call — Tamworth taxis and private hire, open 24/7.
 
 **Buttons:**
 - Primary: Book Online → Cab9 (new tab)
 - Secondary: Call 01827 63333 → tel link
 
-**Image direction:** UK street / RHD taxi / Tamworth or Midlands feel — not yellow NY cabs.
+**Do not place** stat pills (50 years / 100 vehicles / 24/7) in the first viewport — those belong in Why Acorn.
+
+**Image:** Full-bleed hero banner using fleet photo `preview/img/cab1.jpg` (black taxi). Overlay stays left-heavy so type stays readable; mobile uses a bottom-weighted gradient.
 
 ---
 
 ## 2. Key services
+**Label:** Services  
+
 **H2:** How can we help?
 
-**Intro:** Local journeys, airport transfers, business accounts and more — choose a service to find out more.
+**Intro:** Local journeys, airport transfers, business accounts and more.
 
 | Card title | Short text | Link |
 |------------|------------|------|
-| Airport Transfers | Travel to major UK airports with a pre-booked private hire vehicle. | /airport-transfers/ |
+| Airport Transfers | Pre-booked private hire to Birmingham, Manchester, Heathrow, Luton and East Midlands. | /airport-transfers/ |
 | Our Vehicles | Saloon, estate and 5–8 seater vehicles for everyday and group travel. | /vehicles/ |
 | Business Accounts | Account facilities for organisations that travel regularly. | /account-facilities/ |
-| Download the App | Book, track and pay on Android or iPhone. | /download-our-app/ |
-| Journey Updates | WhatsApp or SMS updates so you know when your taxi is on the way. | /journey-updates/ |
-| Pay Cash or Card | Pay your way — cash, card in the app, or card in the vehicle. | /pay-cash-or-card/ |
+| Download the App | Book, track and pay on Android or iPhone — including offers in the app. | /download-our-app/ |
+| Journey Updates | WhatsApp status updates, or SMS when WhatsApp is not available. | /journey-updates/ |
+| Pay Cash or Card | Cash, card in the app, or card in the vehicle. | /pay-cash-or-card/ |
 
 ---
 
 ## 3. Why Acorn
-**H2:** Why choose Acorn Taxis?
+**Label:** Why Acorn  
 
-**Intro:** Straightforward local transport you can trust.
+**H2:** Established Tamworth transport  
+
+**Intro:** Straightforward local service — not a faceless app brand.
 
 - **50 years** serving Tamworth and the surrounding area  
 - **Over 100 vehicles** for local and longer journeys  
 - **Open 24/7** — book online or call our team  
-- **Private hire** journeys are pre-book only  
-- Book on the **web**, through our **app**, or by **phone**
+- Private hire journeys are **pre-book only**  
+- Book on the web, through our app, or by phone  
+
+**Visual panel:** Navy brand panel (or client fleet photo when available) — avoid generic Unsplash stock.
 
 **Button:** View our services → /services/
 
 ---
 
 ## 4. Airports
+**Layout:** Two columns (Elementor) — copy + CTAs left; destination list right.
+
+**Label:** Airports  
+
 **H2:** Airport transfers
 
 **Text:**  
-We provide private hire airport transfers, including journeys to and from **Birmingham**, **Manchester**, **Heathrow**, **Luton** and **East Midlands** airports.
+Pre-booked private hire from Tamworth to major UK airports — share your flight details when you book.
 
-**Button:** Airport transfer booking → Cab9 (or /airport-transfers/ then Book)
+**Destination list** (each row links to `/airport-transfers/`):
+
+| Code | Airport |
+|------|---------|
+| BHX | Birmingham |
+| MAN | Manchester |
+| LHR | Heathrow |
+| LTN | Luton |
+| EMA | East Midlands |
+
+**Buttons:**
+- Primary: Airport Transfer Booking → Cab9 (new tab)
+- Ghost: Find out more → /airport-transfers/
+
+**Mobile stack:** copy → list → CTAs.
+
+Do not use a fake airport picker or show prices.
 
 ---
 
@@ -68,7 +96,7 @@ We provide private hire airport transfers, including journeys to and from **Birm
 **H2:** Book with the Acorn Taxis app
 
 **Text:**  
-Download our app to book your taxi, follow your journey and pay by card. Look out for promo codes and special offers in the app.
+Book your taxi, follow your journey and pay by card. Look out for promo codes and special offers.
 
 **Buttons / badges:**
 - Google Play → Android URL  
@@ -78,10 +106,10 @@ Download our app to book your taxi, follow your journey and pay by card. Look ou
 ---
 
 ## 6. Areas / map
-**H2:** Based in Tamworth
+**H2:** Based in the town centre
 
 **Text:**  
-Our base is at **20 Lichfield St, Tamworth, B79 7QD**. We cover Tamworth and surrounding areas for local taxi and private hire journeys.
+20 Lichfield St, Tamworth, B79 7QD — covering Tamworth and surrounding areas.
 
 **Map:** Embed Google Maps for the address (simple iframe — no complex interactive map product).
 
