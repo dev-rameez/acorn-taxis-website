@@ -655,14 +655,8 @@ h3 {
   overflow: hidden;
   min-height: 300px;
   background:
-    linear-gradient(145deg, rgba(11, 31, 58, 0.92) 0%, rgba(20, 48, 82, 0.88) 55%, rgba(212, 168, 75, 0.55) 100%),
-    repeating-linear-gradient(
-      -18deg,
-      transparent,
-      transparent 12px,
-      rgba(255, 255, 255, 0.03) 12px,
-      rgba(255, 255, 255, 0.03) 24px
-    );
+    linear-gradient(180deg, rgba(7, 22, 39, 0.25) 0%, rgba(7, 22, 39, 0.55) 45%, rgba(7, 22, 39, 0.88) 100%),
+    url("../img/tamworth.jpg") center 35% / cover no-repeat;
   box-shadow: var(--shadow);
   display: flex;
   align-items: flex-end;

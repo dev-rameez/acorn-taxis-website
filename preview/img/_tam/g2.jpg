@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html id="geograph">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+		    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	
+	<title>Reuse Image :: Geograph Britain and Ireland</title>
+		<meta name="description" content="Geograph Britain and Ireland is a web-based project to collect and reference geographically representative images of every square kilometre of the British Isles."/>	<meta name="ICBM" content="52.632555802782, -1.697063857384"/>	<meta name="DC.title" content="Geograph:: Reuse Image"/>
+	
+	<link rel="stylesheet" type="text/css" title="Monitor" href="https://s1.geograph.org.uk/templates/basic/css/basic.v27273795.css" media="screen" />
+	<link rel="stylesheet" type="text/css" title="Monitor" href="https://s1.geograph.org.uk/templates/resp/css/modification.v82984132.css" media="screen" />
+			<link rel="stylesheet" type="text/css" title="Monitor" href="https://s1.geograph.org.uk/templates/resp/css/responsive.v93443515.css" media="screen" />
+		<link rel="shortcut icon" type="image/x-icon" href="https://s1.geograph.org.uk/favicon.ico"/>
+	                <link rel="alternate" type="application/json+oembed" href="https://api.geograph.org.uk/api/oembed?url=http%3A%2F%2Fwww.geograph.org.uk%2Fphoto%2F7995306&amp;format=json"/>
+		<link rel="alternate" type="application/vnd.google-earth.kml+xml" href="/photo/7995306.kml"/>
+		<link rel="search" type="application/opensearchdescription+xml" title="Geograph Britain and Ireland search" href="/stuff/osd.xml" />
+	<script type="text/javascript" src="https://s1.geograph.org.uk/js/geograph.v95587556.js"></script>
+	<meta name="format-detection" content="telephone=no">
+</head>
+<body>
+<div id="header_block">
+  <div id="header">
+    <h1 onclick="document.location='/';"><a title="Geograph home page" href="/">Geograph - photograph every grid square</a></h1>
+  </div>
+</div>
+<div class="content2" id="maincontent_block"><div id="maincontent" style="position:relative" role="main">
+<!-- **************************************************
+!! ATTENTION SCRAPERS !!
+
+... reading this page wanting to figure how to download images? 
+
+DON'T! We have proper APIs if you want to download images. 
+https://www.geograph.org.uk/help/api
+
+Automated access to this page is likly to be blocked, not to mention unreliable.
+**************************************************** -->
+
+<style type="text/css">
+
+textarea {
+  margin: auto;
+  display: block;
+  width: 90%;
+	padding: 5px;
+  font-size: 0.9em;
+  background-color: white;
+}
+ul.checklist {
+        max-width:750px;
+}
+ul.checklist li {
+        padding:10px;
+}
+
+div:target {
+        border:2px solid orange;
+        padding:20px;
+        background-color: lightgrey;
+}
+.top { text-align:right;font-size:0.7em; }
+.top A { text-decoration:none; }
+
+.sized b {
+	font-family:times;
+}
+
+
+#wikipedia span.nowrap { /* has some external links, that automatically nowrap links! */
+	white-space: normal;
+	word-break: normal;
+}
+
+.tabHolder a {
+        white-space:nowrap;
+}
+
+
+</style>
+<a name="top"></a>
+
+
+<div class="reuse-header-grid">
+
+<div class="reuse-header-title"><h2><a href="/gridref/SK2003">SK2003</a> : <a title="View this image on its photo page" href="/photo/7995306">Tamworth Castle</a></h2></div>
+
+<div class="reuse-header-copyright">&copy; Copyright <a title="View profile" href="https://www.geograph.org.uk/profile/133291" property="cc:attributionName" rel="cc:attributionURL dct:creator">Rod Grealish</a></b> and	licensed for reuse under this <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/">Creative Commons Licence</a>.</div>
+
+<div class="reuse-header-geoid">Geograph image ID:<wbr/> [[[7995306]]]</div>
+
+</div>
+
+
+<div class="reuse-image">
+
+<a href="/photo/7995306" title="Scroll down for high resolution version"><img alt="Tamworth Castle" src="https://s0.geograph.org.uk/geophotos/07/99/53/7995306_e8574d0a.jpg" crossorigin="use-credentials" width="640" height="424" onerror="retryCross(this)" style="width:640px; max-width:min(100% , 141vh); height:auto;"></a>
+</div>
+
+<div class="reuse-ccbox-grid">
+<div class="reuse-ccbox-logo"><a href="http://creativecommons.org/licenses/by-sa/2.0/"><img	alt="Creative Commons Licence [Some Rights Reserved]" src="https://s1.geograph.org.uk/img/somerights20.gif" align="left" /></a></div>
+<div class="reuse-ccbox-message"><b>&copy; Copyright <a title="View profile" href="https://www.geograph.org.uk/profile/133291" property="cc:attributionName" rel="cc:attributionURL dct:creator">Rod Grealish</a></b> and licensed for reuse under this <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/">Creative Commons Licence</a>.</div>
+</div>
+
+
+
+
+<br/><br/>
+
+
+<div class="tabHolder" style="margin:auto;max-width:940px">
+<a class="tabSelected" id="tab1" onclick="tabClick('tab','div',1,5); window.location.hash='licence';">License</a>
+<a class="tab" id="tab2" onclick="tabClick('tab','div',2,5); window.location.hash='credit';">Crediting</a>
+<a class="tab" id="tab3" onclick="tabClick('tab','div',3,5); window.location.hash='download';">Download original</a>
+<a class="tab" id="tab4" onclick="tabClick('tab','div',4,5); window.location.hash='stamp';">Stamped image</a>
+<a class="tab" id="tab5" onclick="tabClick('tab','div',5,5); window.location.hash='code';">Reusable code</a>
+</div>
+
+
+<script>
+
+function setupTabs() {
+    // Strip the '#' so URLSearchParams can read it properly
+    const hashString = window.location.hash.substring(1);
+    const params = new URLSearchParams(hashString);
+
+    if (params.has("licence") || hashString == '')  { tabClick('tab', 'div', 1, 5); }
+    if (params.has("credit")) {   tabClick('tab', 'div', 2, 5); }
+    if (params.has("download")) { tabClick('tab', 'div', 3, 5); }
+    if (params.has("stamp")) {    tabClick('tab', 'div', 4, 5); }
+    if (params.has("code")) {     tabClick('tab', 'div', 5, 5); }
+
+    if (params.has("wiki")) { //select tab and jump to specific block
+        tabClick('tab', 'div', 5, 5);
+        
+        const accordion = document.getElementById('accordion3');
+        if (accordion) {
+            accordion.checked = true;
+            setTimeout(function() {
+                //scrolling to the 'input' doesnt work, better to scroll to the div#wikipedia anyway
+                document.getElementById('wikipedia').scrollIntoView({ behavior: 'smooth' });
+            }, 100);
+        }
+    }
+}
+
+AttachEvent(window,window.addEventListener?'DOMContentLoaded':'load',setupTabs,false);
+window.addEventListener('hashchange', setupTabs);
+</script>
+
+
+
+<div style=";" class="reuse-tabs" id="div1">
+<div class="interestBox"><h3>Image license</h3></div>
+
+<p>All photos on Geograph are <a href="http://creativecommons.org/licenses/by-sa/2.0/">Creative Commons Licensed</a>. In general, as long as you credit the photographer when you use the image, you can use it for most purposes.</p>
+
+<div class="reuse-copyright-warning">Using this image requires you to comply with the Licence requirements, unless <b>explicit</b> permission has been obtained from the copyright holder.</div>
+
+<br/>
+
+<div class="reuse-ccdeed-grid">
+<div class="reuse-ccdeed-requirements">
+<ul class="checklist">
+
+<li>Under the <a href="http://creativecommons.org/licenses/by-sa/2.0/">Creative Commons Licence</a>, the image <b>must</b> be credited to <b>Rod Grealish</b>. </li>
+
+<li>You <i>should</i> mention that whilst the photo is copyrighted it is licensed for further reuse.</li>
+
+<li>If you alter, transform, or build upon this work, you may only distribute the resulting work under a similar licence.</li>
+
+<li><b>CAUTION:</b> You may require additional permissions to reuse images. <b>Do not assume</b> that the <a href="http://creativecommons.org/licenses/by-sa/2.0/">Creative Commons Licence</a> is sufficient permission for your intended reuse, particularly where the reuse is commercial.<br/>For example, images taken on private property may require additional permission (for instance this is a requirement for images taken on National Trust land).</li>
+
+</ul>
+</div>
+<div class="reuse-ccdeed-image"><a href="http://creativecommons.org/licenses/by-sa/2.0/"><img loading="lazy" src="https://s1.geograph.org.uk/img/cc_deed.jpg" width="226" height="226" alt="Creative Commons Licence Deed"/></a><br/>
+<a href="http://creativecommons.org/licenses/by-sa/2.0/">Full Licence Deed</a>
+</div>
+
+</div>
+
+<p>Examples of good wording for compliant use of the creative commons licensing can be found in the <a href="#" onclick=" tabClick('tab','div',2,5);return false; ">Crediting tab</a>. There are also examples of code to copy and paste for reuse online in the 'Reusable code' box.</p>
+
+
+
+</div>
+
+<div style="display:none;" class="reuse-tabs" id="div2">
+<div class="interestBox"><h3>Crediting images</h3></div>
+
+<p>This page provides examples of credits for images which are compliant with the terms of the <a href="http://creativecommons.org/licenses/by-sa/2.0/">Creative Commons License</a>. You may choose the form which best suits your usage of the photo. You may also find the <a href="#" onclick=" tabClick('tab','div',4,5);return false; ">stamped image</a> tab useful, where you can download versions of this photo with a credit stamped on the image.</p>
+
+<ul>
+<li>You may copy and paste any of the text credits below and use them with or without the hyperlinks.</li>
+<li>We would encourage you to include a link to the photo page, at <a href="https://www.geograph.org.uk/photo/7995306" style="word-break: break-all">https://www.geograph.org.uk/photo/7995306</a> when reusing the image.</li>
+<li>You may also wish to use the <a href="https://creativecommons.org/mission/downloads/">Creative Commons badges</a> to go alongside the copyright text.</li>
+</ul>
+
+
+<h4>Creative Commons</h4>
+<div class="reuse-credit-example">
+<b><a href="https://www.geograph.org.uk/photo/7995306">Photo</a> &copy; Copyright <a title="View profile" href="https://www.geograph.org.uk/profile/133291" property="cc:attributionName" rel="cc:attributionURL dct:creator">Rod Grealish</a></b> and licensed for reuse under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/">cc-by-sa/2.0</a> Creative Commons Licence.
+</div>
+
+<h4>With title and date</h4>
+
+<div class="reuse-credit-example">
+<b>&copy; <a title="View profile" href="https://www.geograph.org.uk/profile/133291">Rod Grealish</a></b> (<a href="http://creativecommons.org/licenses/by-sa/2.0/">cc-by-sa/2.0</a>)
+<a href="https://www.geograph.org.uk/photo/7995306">geograph.org.uk/p/7995306</a><br/>
+Tamworth Castle, taken Tuesday,  7 August, 2018</div>
+
+<h4>Minimalist</h4>
+
+<div class="reuse-credit-example">
+<a href="https://www.geograph.org.uk/photo/7995306">Photo</a> <b>&copy; <a title="View profile" href="https://www.geograph.org.uk/profile/133291">Rod Grealish</a></b> (<a href="http://creativecommons.org/licenses/by-sa/2.0/">cc-by-sa/2.0</a>)
+</div>
+
+</div>
+
+<div style="display:none;" class="reuse-tabs" id="div3">
+<div class="interestBox"><h3>Download</h3></div>
+
+<p>Links are provided below to download the image previewed above at different sizes. Any images downloaded need to be displayed alongside an appropriate image credit in order to comply with the <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/">Creative Commons Licence</a>.</p>
+
+<div class="reuse-reminders">
+<ul>
+<li>When displaying this photo, your <b>must include the copyright attribution</b> in line with the <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/">Creative Commons Licence</a>.</li>
+<li>We would encourage you to include a link to the photo page, at <a href="https://www.geograph.org.uk/photo/7995306" style="word-break: break-all">https://www.geograph.org.uk/photo/7995306</a> when reusing the image.</li>
+</ul>
+</div>
+
+
+    
+<ul>
+
+<li>Largest available size: <a href="/reuse.php?id=7995306&amp;download=e8574d0a&amp;size=original">800 &#x00d7; 530 px</a> <wbr>(Filesize: 144,605 bytes)</li> 
+
+
+<li><a href="/reuse.php?id=7995306&amp;download=e8574d0a">640 &#x00d7; 424 px</a></li>
+
+</ul>
+
+
+</li>
+</ul>
+
+
+
+
+<p>We also offer images where the required attribution has been added to the image. See the <a href="#" onclick=" tabClick('tab','div',4,5);return false; ">stamped image</a> tab to obtain an image with the attribution displayed on the image.</p>
+
+</div>
+
+<div style="display:none;" class="reuse-tabs" id="div4">
+
+<div class="interestBox"><h3>Stamped images</h3></div>
+
+<p>You can download versions of this image with the required attribution directly placed onto the image. These image files comply with the <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/">Creative Commons licence</a>, provided that the attribution is visible and isn't removed from the image (eg through cropping).</p>
+
+<p>The image displayed below has the default attribution settings applied. These can be configured further down the page.</p>
+
+<div class="reuse-stamped-image">
+<h3>Stamped image preview</h3>
+
+<a href="https://t0.geograph.org.uk/stamp.php?id=7995306&title=on&gravity=SouthEast&hash=e8574d0a&download=1" id="stamp_link">
+<img src="https://t0.geograph.org.uk/stamp.php?id=7995306&title=on&gravity=SouthEast&hash=e8574d0a" loading="lazy" id="stamp_preview" style="max-width:100%" crossorigin="use-credentials" onload="this.style.opacity=1;" onerror="retryCross(this)"></a>
+
+<ul>
+<li>To download the image either:
+<ul>
+<li>Left click on the image to to start the download</li>
+<li>Or right click on the image and select '<i>Save image as...</i>'</li>
+</ul>
+</li>
+</ul>
+
+</div>
+<br/>
+<div class="reuse-stamping-options">
+<h3>Stamping options</h3>
+
+<p>You can configure options for the attribution which appears on the stamped image. You can edit any of the options below, then click 'Update stamped image' to apply the settings and update the preview image above.</p>
+
+
+	<form name=theForm action="https://t0.geograph.org.uk/stamp.php" method="get" target="_blank" onsubmit="return submit_stamp()">
+	<script>
+	let tile_host = 'https://t0.geograph.org.uk';
+	
+	function submit_stamp() {
+	        //we have to be extra careful checking if a real jquery, as jQl creates a fake jQuery object.
+		if (typeof jQuery === "undefined" || jQuery === null || typeof jQuery.fn === "undefined" || typeof jQuery.fn.load === "undefined") {
+			jQl.loadjQ('https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js');
+
+			$(function() {
+				submit_stamp_inner();
+			});
+		} else {
+			submit_stamp_inner();
+		}
+		return false;
+	}
+	function submit_stamp_inner() {
+		document.getElementById('stamp_preview').style.opacity=0.1; //onload event will undo this
+		let str = $('form[name="theForm"]').serialize();
+		document.getElementById('stamp_preview').src = tile_host+'/stamp.php?'+str;
+		document.getElementById('stamp_link').href = tile_host+'/stamp.php?'+str;
+	}
+	</script>
+	
+
+
+<input type=hidden name=id value="7995306"/>
+
+
+<div class="reuse-stampingopt-grid">
+<div class="reuse-stampingopt-param"><label for=large>Image size</label></div>
+<div class="reuse-stampingopt-input">
+  <select name=large>
+		<option value=0>Base size (640x424)</option>
+											<option value="1">Full Size (800x530 px)</option>
+			</select>
+</div>
+<div class="reuse-stampingopt-desc">Select the size of the image.</div>
+</div>
+<br/>
+<div class="reuse-stampingopt-grid">
+<div class="reuse-stampingopt-param"><label for=title>Include image title</label></div>
+<div class="reuse-stampingopt-input"><input type=checkbox name=title id=title checked></div>
+<div class="reuse-stampingopt-desc">Select whether the image title appears in the attribution.</div>
+</div>
+<br/>
+<div class="reuse-stampingopt-grid">
+<div class="reuse-stampingopt-param"><label for=link>Hide geograph link</label></div>
+<div class="reuse-stampingopt-input"><input type=checkbox name=link id=link value=0></div>
+<div class="reuse-stampingopt-desc">Remove the link to the photo page on Geograph.</div>
+</div>
+<br/>
+<div class="reuse-stampingopt-grid">
+<div class="reuse-stampingopt-param"><label for=invert>Invert text color</label></div>
+<div class="reuse-stampingopt-input"><input type=checkbox name=invert id=invert value=1 /></div>
+<div class="reuse-stampingopt-desc">Invert the text colour for the label.</div>
+</div>
+<br/>
+<div class="reuse-stampingopt-grid">
+<div class="reuse-stampingopt-param"><label for=font>Font</label></div>
+<div class="reuse-stampingopt-input">
+<select name=font>
+<option value="Bookman-Demi">Bookman-Demi</option>
+<option value="Bookman-Light">Bookman-Light</option>
+<option value="Courier">Courier</option>
+<option value="fixed">fixed</option>
+<option value="Helvetica" selected>Helvetica</option>
+<option value="Helvetica-Narrow">Helvetica-Narrow</option>
+<option value="Times-Roman">Times-Roman</option>
+<option value="Century-Schoolbook-L-Roman">Century-Schoolbook-L-Roman</option>
+<option value="DejaVu-Sans">DejaVu-Sans</option>
+<option value="DejaVu-Sans-Mono">DejaVu-Sans-Mono</option>
+<option value="URW-Bookman-L-Light">URW-Bookman-L-Light</option>
+<option value="URW-Gothic-L-Book">URW-Gothic-L-Book</option>
+<option value="URW-Gothic-L-Demi">URW-Gothic-L-Demi</option>
+<option value="URW-Palladio-L-Roman">URW-Palladio-L-Roman</option>
+</select>
+</div>
+<div class="reuse-stampingopt-desc">Select the font to be used for the label.</div>
+</div>
+<br/>
+<div class="reuse-stampingopt-grid">
+<div class="reuse-stampingopt-param"><label for=gravity>Text location</label></div>
+<div class="reuse-stampingopt-input">
+<select name=gravity>
+<optgroup label="Horizontal text">
+<option value="North">Top centre</option>
+<option value="NorthWest">Top left</option>
+<option value="NorthEast">Top right</option>
+<option value="South">Bottom centre</option>
+<option value="SouthWest">Bottom left</option>
+<option value="SouthEast" selected>Bottom right</option>
+<option value="Center">Centre</option>
+<option value="West">Centre left</option>
+<option value="East">Centre right</option>
+</optgroup>
+<optgroup label="Vertical Text">
+<option value="left">Left edge</option>
+<option value="right">Right edge</option>
+</optgroup>
+</select>
+</div>
+<div class="reuse-stampingopt-desc">Select the location on the photo for the label to appear.</div>
+</div>
+<br/>
+<div class="reuse-stampingopt-grid">
+<div class="reuse-stampingopt-param"><label for=pointsize>Type size</label></div>
+<div class="reuse-stampingopt-input">
+<select name=pointsize>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12" selected>12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+<option value="32">32</option>
+<option value="33">33</option>
+<option value="34">34</option>
+<option value="35">35</option>
+<option value="36">36</option>
+<option value="48">48</option>
+<option value="64">64</option>
+<option value="96">96</option>
+<option value="128">128</option>
+</select> pt
+</div>
+<div class="reuse-stampingopt-desc">Select the type size in points for the label.</div>
+</div>
+<br/>
+
+<input type=hidden name=download value=1>
+<div style="text-align:center;"><input type="submit" value="Update stamped image" style="width:600px; max-width:100%; cursor: pointer; line-height: 2em; font-size: 1.1em; font-weight:bold; background-color: #b7e1cd;"/></div>
+</form>
+
+</div>
+
+<p>Please note that the text may be difficult to see in the preview above if a large image size and/or a small font size are selected.</p>
+
+</div>
+
+<div style="display:none;" class="reuse-tabs" id="div5">
+<div class="interestBox"><h3>Obtain code for use</h3></div>
+
+<p>This page provides preformatted code which can be used to display this image on websites with attribution which is compliant with the <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/">Creative Commons Licence</a>.</p>
+
+<div class="reuse-reminders">
+<ul>
+<li>When displaying this photo, you <b>must include the copyright attribution</b> in line with the <a rel="license" href="http://creativecommons.org/licenses/by-sa/2.0/">Creative Commons Licence</a>.</li>
+<li>We would encourage that you to include a link to the photo page, at <a href="https://www.geograph.org.uk/photo/7995306" style="word-break: break-all">https://www.geograph.org.uk/photo/7995306</a> when reusing the image.</li>
+</ul>
+</div>
+<br/>
+
+<div class="reuse-hotlink-warning">
+<h3>&#x26A0; Hotlinking and bulk downloads &#x26A0;</h3>
+
+<ul class="checklist">
+
+<li><b>We do ask you to be polite and not abuse the Geograph website resources.</b></li>
+<li><b><span class="nowrap"><a title="Hotlinking" rel="noopener" href="http://en.wikipedia.org/wiki/Inline_linking">Hotlinking</a><img style="margin-left:2px;" alt="External link" title="External link - shift click to open in new window" src="https://s1.geograph.org.uk/img/external.png" width="10" height="10"/></span></b> the image directly off our servers will trigger automatic watermarks and may be blocked</li>
+
+<li><b>Don't bulk download images from this page</b> - Automated access to this page is likely to be blocked (and unreliable). We have proper <a href="/help/api">APIs</a> if you want to bulk download images.</li>
+
+
+</ul>
+
+</div>
+
+<br/><br/>
+
+<div class="input-toggle-accordion">
+
+<input type="checkbox" id="accordion1" />
+<label for="accordion1">HTML Embed Code</label>
+
+<div class="content" id="html">
+
+
+
+<h4>Example HTML snippet, for use on a website</h4>
+
+<div class="reuse-codepreview">
+<div style="text-align:center; max-width: 100%;">
+<div><img alt="Tamworth Castle" src="https://s0.geograph.org.uk/geophotos/07/99/53/7995306_e8574d0a.jpg" crossorigin="use-credentials" width="640" height="424" loading="lazy" onerror="retryCross(this)" style="width:640px; max-width:min(100% , 141vh); height:auto;"></div>
+<div><a href="https://www.geograph.org.uk/photo/7995306">Photo</a> &copy; <a href="https://www.geograph.org.uk/profile/133291">Rod Grealish</a> (<a href="https://creativecommons.org/licenses/by-sa/2.0/">cc-by-sa/2.0</a>)</div>
+<div>Tamworth Castle, Tuesday,  7 August, 2018</div>
+<div style="font-size:0.9em;">Photo available for reuse under this <a href="https://creativecommons.org/licenses/by-sa/2.0/">Creative Commons licence</a>.</div>
+</div>
+</div>
+
+<br/><br/>
+
+<form>
+<textarea rows="8">
+<div style="text-align:center; max-width: 100%;">
+<div>&lt;img src&#61;&quot;geograph-7995306-by-Rod-Grealish.jpg" alt="Tamworth Castle, by Rod Grealish" width="640" height="424" style="height: auto; max-width:95%;"&gt;</div>
+<div><a href="https://www.geograph.org.uk/photo/7995306">Photo</a> &amp;copy; <a href="https://www.geograph.org.uk/profile/133291">Rod Grealish</a> (<a href="https://creativecommons.org/licenses/by-sa/2.0/">cc-by-sa/2.0</a>)</div>
+<div>Tamworth Castle, Tuesday,  7 August, 2018</div>
+<div style="font-size:0.9em;">Photo available for reuse under this <a href="https://creativecommons.org/licenses/by-sa/2.0/">Creative Commons licence</a>.</div>
+</textarea>
+</form>
+
+<p>Please remember to <a href="/reuse.php?id=7995306&amp;download=e8574d0a">download (640 &#x00d7; 424 px)</a> and host your own copy of the image, rather than hotlinking it from Geograph servers. Additional image sizes are available from the <a href="#" onclick=" tabClick('tab','div',3,5);return false; ">download tab</a>.</p>
+</div>
+
+
+<input type="checkbox" id="accordion2" />
+<label for="accordion2">Forum code for BB forums</label>
+
+
+<div class="content" id="bbcode">
+<h4>BBCode for reusing image on a non-Geograph forum</H4>
+
+<form><textarea rows="4">[b][url=https://www.geograph.org.uk/photo/7995306]Tamworth Castle
+[img]https://s2.geograph.org.uk/geophotos/07/99/53/7995306_e8574d0a_213x160.jpg[/img][/url][/b]
+&copy; Copyright [url=https://www.geograph.org.uk/profile/133291]Rod Grealish[/url] and  
+licensed for reuse under this [url=http://creativecommons.org/licenses/by-sa/2.0/]Creative Commons Licence[/url].</textarea></form>
+
+<h4>BBCode with shorter creative commons message</h4>
+
+<form><textarea rows="3">[url=https://www.geograph.org.uk/photo/7995306][b]Tamworth Castle[/b]
+[img]https://s2.geograph.org.uk/geophotos/07/99/53/7995306_e8574d0a_120x120.jpg[/img][/url]
+&copy; [url=https://www.geograph.org.uk/profile/133291]Rod Grealish[/a], [url=http://creativecommons.org/licenses/by-sa/2.0/]cc-by-sa[/url].</textarea></form>
+</div>
+
+
+<input type="checkbox" id="accordion3" />
+<label for="accordion3">Wikipedia</label>
+
+<div class="content" id="wikipedia">
+<h4>Wikipedia Template for image page.</h4>
+
+
+<p>You can <span class="nowrap"><a title="directly upload this image to Wikimedia Commons" rel="noopener" href="https://commons.wikimedia.org/wiki/Special:Upload?wpSourceType=url&amp;wpUploadFileURL=https%3A%2F%2Fwww.geograph.org.uk%2Freuse.php%3Fid%3D7995306%26download%3De8574d0a%26size%3Doriginal&amp;wpUploadDescription=%3D%3D%20%7B%7Bint%3Afiledesc%7D%7D%20%3D%3D%0D%0A%7B%7BInformation%0D%0A%7CDescription%3D%7B%7Ben%7C1%3DTamworth%20Castle%7D%7D%0D%0A%7CSource%3DFrom%20%5Bhttps%3A%2F%2Fwww.geograph.org.uk%2Fphoto%2F7995306%20geograph.org.uk%5D%0D%0A%7CDate%3D2018-08-07%0D%0A%7CAuthor%3D%5Bhttps%3A%2F%2Fwww.geograph.org.uk%2Fprofile%2F133291%20Rod%20Grealish%5D%0D%0A%7CPermission%3DCreative%20Commons%20Attribution%20Share-alike%20license%202.0%0D%0A%7COther%20fields%3D%7B%7BCredit%20line%0D%0A%20%7CAuthor%3DRod%20Grealish%0D%0A%20%7CLicense%3D%5Bhttps%3A%2F%2Fcreativecommons.org%2Flicenses%2Fby-sa%2F2.0%2F%20CC%20BY-SA%202.0%5D%0D%0A%20%7COther%3D%27%27Tamworth%20Castle%27%27%0D%0A%20%7D%7D%0D%0A%7D%7D%0D%0A%7B%7BLocation%7C52.631834%7C-1.695887%7Csource%3Ageograph-osgb36%28SK20680383%29_heading%3A315%7Cprec%3D10%7D%7D%0D%0A%7B%7BObject%20location%7C52.63256%7C-1.69706%7Csource%3Ageograph-osgb36%28SK20600391%29_heading%3A315%7Cprec%3D10%7D%7D%0D%0A%0D%0A%3D%3D%20%7B%7Bint%3Alicense-header%7D%7D%20%3D%3D%0D%0A%7B%7Bgeograph%7C7995306%7CRod%20Grealish%7D%7D&amp;wpDestFile=Tamworth%20Castle%20(geograph%207995306).jpg">directly upload this image to Wikimedia Commons</a><img style="margin-left:2px;" alt="External link" title="External link - shift click to open in new window" src="https://s1.geograph.org.uk/img/external.png" width="10" height="10"/></span>.  You will need to add some categories, but that link will automatically fill in the <a href="https://www.geograph.org.uk/reuse.php?id=7995306&amp;download=e8574d0a&amp;size=original">download link</a> and the file description template below.</p>
+
+<div class="reuse-wikipedia-warning">
+<h3>&#x26A0; Does Wikimedia already have the image? &#x26A0;</h3>
+
+<ul class="checklist">
+<li>Wikimedia Commons has carried out uploading of Geograph images to their servers in bulk.</li>
+<li>Please make sure the image hasn't already been uploaded.</li>
+<li><span class="nowrap"><a title="This search should find it if it has been uploaded" rel="noopener" href="http://commons.wikimedia.org/w/index.php?title=Special:Search&search=geograph+7995306&amp;fulltext=Search&amp;ns6=1">This search should find it if it has been uploaded</a><img style="margin-left:2px;" alt="External link" title="External link - shift click to open in new window" src="https://s1.geograph.org.uk/img/external.png" width="10" height="10"/></span>.</li>
+</ul>
+</div>
+
+<br/>
+
+
+<form><textarea rows="17" id="wikitext">== {{int:filedesc}} ==
+{{Information
+|Description={{en|1=Tamworth Castle}}
+|Source=From [https://www.geograph.org.uk/photo/7995306 geograph.org.uk]
+|Date=2018-08-07
+|Author=[https://www.geograph.org.uk/profile/133291 Rod Grealish]
+|Permission=Creative Commons Attribution Share-alike license 2.0
+|Other fields={{Credit line
+ |Author=Rod Grealish
+ |License=[https://creativecommons.org/licenses/by-sa/2.0/ CC BY-SA 2.0]
+ |Other=&#039;&#039;Tamworth Castle&#039;&#039;
+ }}
+}}
+{{Location|52.631834|-1.695887|source:geograph-osgb36(SK20680383)_heading:315|prec=10}}
+{{Object location|52.63256|-1.69706|source:geograph-osgb36(SK20600391)_heading:315|prec=10}}
+
+== {{int:license-header}} ==
+{{geograph|7995306|Rod Grealish}}</textarea><br/>
+This template includes the <span class="nowrap"><a title="information box" rel="noopener" href="http://commons.wikimedia.org/wiki/Template:Information">information box</a><img style="margin-left:2px;" alt="External link" title="External link - shift click to open in new window" src="https://s1.geograph.org.uk/img/external.png" width="10" height="10"/></span> with the relevent data (title, links and licence), <span class="nowrap"><a title="geotags the image" rel="noopener" href="http://commons.wikimedia.org/wiki/Template:Location">geotags the image</a><img style="margin-left:2px;" alt="External link" title="External link - shift click to open in new window" src="https://s1.geograph.org.uk/img/external.png" width="10" height="10"/></span>, as well as the specific <span class="nowrap"><a title="Geograph Template" rel="noopener" href="http://commons.wikimedia.org/wiki/Template:Geograph">Geograph Template</a><img style="margin-left:2px;" alt="External link" title="External link - shift click to open in new window" src="https://s1.geograph.org.uk/img/external.png" width="10" height="10"/></span></form>
+</div>
+
+
+</div>
+
+
+
+</div>
+
+
+<br/><br/>
+
+
+<div class="reuse-donate-grid">
+<div class="reuse-donate-button"><a href="/help/donate" style="background-color:purple;color:white;text-decoration:none;font-size:1.1em;padding:4px;margin:5px;border-radius:4px">Donate/Support Us</a></div>
+<div class="reuse-donate-useful">Found Geograph useful?</div>
+<div class="reuse-donate-message">Please consider <a href="https://www.geograph.org.uk/help/donate">donating</a> to support the Geograph Project!</div>
+<div class="reuse-donate-link"><a href="https://cafdonate.cafonline.org/18714" target="_blank" title="Donate to us (Link opens in a new window)">Donate via Charities Aid Foundation</a></div>
+</div>
+
+
+
+</div>
+</div>
+
+<input type=checkbox id="nav_toggle">
+<label id="nav_label" for="nav_toggle">&#9776;</label>
+<div id="nav_block" class="no_print">
+ <div class="nav">
+
+
+
+  <ul>
+    <li style="font-size:1.42em"><a accesskey="1" title="Return to the Home Page" href="/">Home</a></li>
+    <li>View<ul>
+     <li><a title="Find and locate images" href="/search.php">Search</a></li>
+     <li id="markedLink" style="display:none"><a title="View your current Marked Images" href="/finder/marked.php">Marked Images</a></li>
+     <li><a title="View map of all submissions" href="/mapper/combined.php">Maps</a></li>
+     <li><a title="Interactive browser, search and map in one" href="/browser/#!start">Browser</a></li>
+     <li><a title="Explore images by theme" href="/explore/">Explore</a></li>
+     <li><a title="Curated selection of images" href="/gallery.php">Showcase</a></li>
+     <li><a href="/finder/recent.php">New Images</a></li>
+    </ul></li>
+    <li><ul>
+     <li><a title="Submitted Pages, Galleries and Articles" href="/content/">Collections</a></li>
+    </ul></li>
+    <li>Interact<ul>
+     <li><a title="Geographical games to play" href="/games/">Games</a></li>
+     <li><a title="Discussion Forum" href="/discuss/">Discussions</a></li>
+     <li><a title="Blog Posts by Members" href="/blog/">Blog</a></li>
+         </ul></li>
+    <li>Contributors<ul>
+     <li><a title="Submit your photos" href="/submit.php">Submit</a></li>
+          <li><a title="Interesting facts and figures" href="/numbers.php">Statistics</a></li>
+     <li><a title="Contributor leaderboards" href="/statistics/moversboard.php">Leaderboards</a></li>
+    </ul></li>
+    <li>General<ul>
+     <li><a title="Frequently Asked Questions" href="/faq3.php?l=0">FAQ</a></li>
+     <li><a title="Info, Guides and Tutorials" href="/content/documentation.php">Help Pages</a></li>
+     <li><a title="View a list of all pages" href="/help/sitemap">Sitemap</a></li>
+     <li><a title="Contact the Geograph Team" href="/contact.php">Contact Us</a></li>
+     <li><a title="Donate to Geograph Project" href="/help/donate">Support Us</a></li>
+    </ul></li>
+      </ul>
+<div class="sponsor">sponsored by <br/> <br/>
+<a title="Geograph sponsored by Ordnance Survey" href="https://www.ordnancesurvey.co.uk/education/"><img src="https://s1.geograph.org.uk/img/os-logo-p64.png" width="64" height="50" alt="Ordnance Survey"/></a></div>
+  </div>
+</div>
+<input type=checkbox id="search_toggle">
+<label id="search_label" for="search_toggle">&#x1F50D;&#xFE0E;</label>
+<div id="search_block" class="no_print">
+  <div id="search">
+    <div id="searchform">
+    <form method="get" action="/search.php">
+    <div id="searchfield">
+    <input type="hidden" name="form" value="simple"/>
+    <input id="searchterm" type="text" name="q" placeholder="enter search query" value="" size="10" title="Enter a Postcode, Grid Reference, Placename or a text search"/>    <input id="searchbutton2" type="submit" name="go" value="&#x1F50D;&#xFE0E;"/>
+	<div id="searchoptions">
+		 What to search:<ul class="touchPadding">
+                                <li><label><input type=radio name=type checked onclick="this.form.action = '/of/'">Photos</label> &nbsp; <i>Enter keywords or a location/postcode to search nearby images</i>
+				                                <li><label><input type=radio name=type onclick="this.form.action = '/near/J4967'">Photos near J4967</label> &nbsp;
+				                                <li><label><input type=radio name=type onclick="this.form.action = '/browse.php'">Enter a Grid Reference</label> &nbsp;
+                                <li><label><input type=radio name=type onclick="this.form.action = '/finder/places.php'">Placenames</label> &nbsp;
+                                <li><label><input type=radio name=type onclick="this.form.action = '/content/'">Collections</label> &nbsp;
+				                                <li><label><input type=radio name=type onclick="this.form.action = '/content/documentation.php'">Website Pages</label> &nbsp;
+                                <li><label><input type=radio name=type onclick="this.form.action = '/finder/multi2.php'">Everything</label> &nbsp;
+		</ul>
+		<hr>
+		Others: <a href="/search.php?form=text">Advanced Search</a> | <a href="/browser/">Image Browser</a><br><br>
+		Or: <a href="/mapper/combined.php">Coverage Map</a> | <a href="/browser/#!/display=map_dots">Searchable Map</a>
+	</div>
+      </div>
+    </form>
+    </div>
+  </div>
+</div>
+  <div id="login" class="no_print"><span class="nowrap">
+    	  You are not logged in
+	  <span class="sep">|</span>
+	  <a title="Already registered? Login in here" href="/login.php">login</a>
+		<span class="sep">|</span></span>
+	  <a title="Register to upload photos" href="/register.php">register</a>
+      </div>
+	<div class="content2" id="footer_block">
+  <div id="footer" class="no_print">
+     <p style="float:left">Page updated at 13:49</p>
+   <p><a href="/report.php" title="Report this page">Report a Concern</a>
+       <span class="sep">|</span>
+       <a href="/article/Use-of-Cookies-on-Geograph-Website" title="How this site uses cookies">Cookies</a>
+       <span class="sep">|</span>
+       <a href="/help/credits" title="Who built this and how?">Credits</a>
+       <span class="sep">|</span>
+       <a href="/help/terms" title="Terms of Service and Privacy Policy">Terms of Service</a>
+       <span class="sep">|</span>
+       <a href="/article/Get-Involved" title="contribute to geograph">Get Involved</a>
+    </p>
+  </div>
+</div>
+<script src="https://s1.geograph.org.uk/js/links.v50453912.js" defer="defer"></script></body>
+</html>

@@ -56,7 +56,7 @@ Book online or call — Tamworth taxis and private hire, open 24/7.
 - Private hire journeys are **pre-book only**  
 - Book on the web, through our app, or by phone  
 
-**Visual panel:** Navy brand panel (or client fleet photo when available) — avoid generic Unsplash stock.
+**Visual panel:** Tamworth Castle photo (`preview/img/tamworth.jpg`) with navy overlay + “50 years in Tamworth” copy. Replace with client photography when available.
 
 **Button:** View our services → /services/
 
