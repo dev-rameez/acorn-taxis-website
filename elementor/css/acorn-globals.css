@@ -8,8 +8,8 @@
   --acorn-navy: #0b1f3a;
   --acorn-navy-deep: #071627;
   --acorn-navy-mid: #143052;
-  --acorn-gold: #d4a84b;
-  --acorn-gold-soft: #e0ba63;
+  --acorn-gold: #fccc0a;
+  --acorn-gold-soft: #ffde14;
   --acorn-off-white: #f5f7fa;
   --acorn-surface: #ffffff;
   --acorn-charcoal: #1c1c1c;
@@ -26,7 +26,7 @@
   min-height: 52px;
   padding: 14px 28px;
   letter-spacing: -0.01em;
-  box-shadow: 0 4px 14px rgba(212, 168, 75, 0.35);
+  box-shadow: 0 4px 14px rgba(252, 204, 10, 0.35);
   transition: background 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -35,7 +35,7 @@
   background-color: var(--acorn-gold-soft) !important;
   color: var(--acorn-navy-deep) !important;
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(212, 168, 75, 0.4);
+  box-shadow: 0 8px 20px rgba(252, 204, 10, 0.4);
 }
 
 .acorn-btn-secondary .elementor-button {

@@ -10,11 +10,11 @@
   <link rel="stylesheet" href="../css/styles.css" />
 </head>
 <body>
-<header class="site-header">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
     <div class="header-inner">
       <a class="logo" href="../index.html">
-        <span class="logo-mark" aria-hidden="true">A</span>
-        <span class="logo-text"><strong>Acorn Taxis</strong><span>Tamworth</span></span>
+        <img class="logo-img" src="../img/logo-acorn.png" alt="Acorn of Tamworth" width="180" height="72" />
       </a>
       <nav aria-label="Primary">
         <ul class="nav-desktop">
@@ -22,7 +22,7 @@
           <li><a href="services.html">Services</a></li>
           <li><a href="airport-transfers.html">Airports</a></li>
           <li><a href="vehicles.html">Vehicles</a></li>
-          <li><a href="download-our-app.html">App</a></li>
+          <li><a href="download-our-app.html" aria-current="page">App</a></li>
           <li><a href="contact-us.html">Contact</a></li>
         </ul>
       </nav>
@@ -38,86 +38,181 @@
         <li><a href="services.html">Services</a></li>
         <li><a href="airport-transfers.html">Airport Transfers</a></li>
         <li><a href="vehicles.html">Vehicles</a></li>
+        <li><a href="download-our-app.html" aria-current="page">App</a></li>
         <li><a href="contact-us.html">Contact</a></li>
       </ul>
       <a class="btn btn-primary" href="tel:+44182763333">Call Now</a>
     </div>
   </header>
+
   <main id="main">
-    <section class="page-hero"><div class="wrap">
-      <h1>The Acorn Taxis app</h1>
-      <p class="lead">Book, track and pay on Android or iPhone — including promo codes and special offers.</p>
-    </div></section>
-    <section class="section section--surface"><div class="wrap">
-      <ol class="app-steps">
-  <li>Choose your journey</li>
-  <li>Book at a time that suits you</li>
-  <li>Track your vehicle</li>
-  <li>Pay in the app by card, or choose cash where available</li>
-  <li>Use promo codes and offers when available</li>
-</ol>
-<div class="store-row">
-  <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.autocab.taxibooker.acorntaxis.tamworth" target="_blank" rel="noopener noreferrer">Google Play</a>
-  <a class="store-badge" href="https://apps.apple.com/nz/app/acorn-taxis/id1078919421" target="_blank" rel="noopener noreferrer">App Store</a>
-</div>
-      <div class="btn-row" style="margin-top:2rem">
-        <a class="btn btn-primary" href="https://booker.cab9.app?company=ACO&code=0951" target="_blank" rel="noopener noreferrer">Book Online</a>
-        <a class="btn btn-secondary" href="tel:+44182763333">Call 01827 63333</a>
+    <section class="section section--surface app-page">
+      <div class="wrap">
+        <div class="app-panel app-panel--page">
+          <div class="app-panel-copy">
+            <p class="eyebrow">Acorn Taxis app</p>
+            <h1>Book from your phone</h1>
+            <p class="lead">
+              Set pickup and destination, book now or later, track your vehicle, and pay by card or cash —
+              with promo codes and special offers when available.
+            </p>
+            <div class="store-row">
+              <a
+                class="store-badge"
+                href="https://play.google.com/store/apps/details?id=com.autocab.taxibooker.acorntaxis.tamworth"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Get it on Google Play</a
+              >
+              <a
+                class="store-badge store-badge--outline"
+                href="https://apps.apple.com/nz/app/acorn-taxis/id1078919421"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Download on the App Store</a
+              >
+            </div>
+            <p class="app-alt">
+              Prefer the website?
+              <a href="https://booker.cab9.app?company=ACO&code=0951" target="_blank" rel="noopener noreferrer">Book Online</a>
+              or
+              <a href="tel:+44182763333">call 01827 63333</a>.
+            </p>
+          </div>
+          <div class="app-panel-visual">
+            <div class="phone-frame phone-frame--hero">
+              <img
+                src="../img/app/book.png"
+                alt="Acorn Taxis app booking a Tamworth journey"
+                width="390"
+                height="844"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="app-features">
+          <div class="app-features-intro">
+            <h2>Everything you need for a local journey</h2>
+            <p class="lead">
+              The Acorn Taxis app is built for Tamworth travel — from a quick pickup to a pre-booked airport run.
+              Available on Android and iPhone.
+            </p>
+          </div>
+          <ul class="app-feature-list">
+            <li>
+              <h3>Book now or later</h3>
+              <p>Choose ASAP for the next available vehicle, or schedule a pickup for a time that suits you.</p>
+            </li>
+            <li>
+              <h3>Follow your ride</h3>
+              <p>See your journey on the map and track your vehicle when it is on the way.</p>
+            </li>
+            <li>
+              <h3>Pay your way</h3>
+              <p>Pay by card in the app, or choose cash where available. Look out for promo codes and offers.</p>
+            </li>
+            <li>
+              <h3>Manage bookings</h3>
+              <p>View upcoming bookings in the app and keep your travel details in one place.</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="app-fleet">
+          <img
+            class="app-fleet-img"
+            src="../img/fleet/fleet-red-castle.png"
+            alt="Acorn Taxis vehicle — book on the app"
+            width="960"
+            height="600"
+            loading="lazy"
+          />
+          <div class="app-fleet-copy">
+            <h2>Book on the app</h2>
+            <p class="lead">
+              Real Acorn vehicles on Tamworth roads — book from your phone, track your ride, and pay by card or cash.
+            </p>
+          </div>
+        </div>
+
+        <div class="app-shots" aria-label="App screenshots">
+          <p class="app-shots-label">Inside the app</p>
+          <figure class="app-shot">
+            <div class="phone-frame">
+              <img src="../img/app/splash.png" alt="Acorn of Tamworth app welcome screen" width="390" height="844" loading="lazy" />
+            </div>
+            <figcaption><span>01</span> Sign in</figcaption>
+          </figure>
+          <figure class="app-shot">
+            <div class="phone-frame">
+              <img src="../img/app/home.png" alt="Acorn Taxis app home map in Tamworth" width="390" height="844" loading="lazy" />
+            </div>
+            <figcaption><span>02</span> Quick booking</figcaption>
+          </figure>
+          <figure class="app-shot">
+            <div class="phone-frame">
+              <img src="../img/app/schedule.png" alt="Acorn Taxis app schedule journey screen" width="390" height="844" loading="lazy" />
+            </div>
+            <figcaption><span>03</span> Schedule ahead</figcaption>
+          </figure>
+        </div>
       </div>
-    </div></section>
+    </section>
   </main>
-    <footer class="site-footer">
-      <div class="wrap footer-grid">
-        <div>
-          <div class="footer-brand">Acorn Taxis</div>
-          <p>Reliable taxis and private hire in Tamworth. Open 24/7.</p>
-          <p>
-            20 Lichfield St, Tamworth, B79 7QD<br />
-            <a href="tel:+44182763333">01827 63333</a><br />
-            <a href="mailto:acorntaxisltd@gmail.com">acorntaxisltd@gmail.com</a>
-          </p>
-        </div>
-        <div>
-          <h3>Services</h3>
-          <ul>
-            <li><a href="airport-transfers.html">Airport Transfers</a></li>
-            <li><a href="vehicles.html">Vehicles</a></li>
-            <li><a href="account-facilities.html">Account Facilities</a></li>
-            <li><a href="journey-updates.html">Journey Updates</a></li>
-            <li><a href="pay-cash-or-card.html">Pay Cash or Card</a></li>
-            <li><a href="download-our-app.html">Download Our App</a></li>
-          </ul>
-        </div>
-        <div>
-          <h3>Company</h3>
-          <ul>
-            <li><a href="areas-covered.html">Areas Covered</a></li>
-            <li><a href="become-a-driver.html">Become a Driver</a></li>
-            <li><a href="carbon-footprint.html">Carbon Footprint</a></li>
-            <li><a href="contact-us.html">Contact Us</a></li>
-          </ul>
-        </div>
-        <div>
-          <h3>Legal &amp; social</h3>
-          <ul>
-            <li><a href="privacy-notice.html">Privacy Notice</a></li>
-            <li><a href="data-protection-policy.html">Data Protection Policy</a></li>
-            <li>
-              <a href="https://www.facebook.com/p/Acorn-Taxis-100083595871568/" target="_blank" rel="noopener noreferrer">Facebook</a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/acorntaxis_tamworth/" target="_blank" rel="noopener noreferrer">Instagram</a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/company/acorn-taxis-tamworth" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-            </li>
-          </ul>
-        </div>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <a class="footer-logo" href="../index.html"><img src="../img/logo-acorn.png" alt="Acorn of Tamworth" width="160" height="64" /></a>
+        <p>Reliable taxis and private hire in Tamworth. Open 24/7.</p>
+        <p>
+          20 Lichfield St, Tamworth, B79 7QD<br />
+          <a href="tel:+44182763333">01827 63333</a><br />
+          <a href="mailto:acorntaxisltd@gmail.com">acorntaxisltd@gmail.com</a>
+        </p>
       </div>
-      <div class="wrap footer-bottom">
-        <span>© Acorn Taxis Ltd</span>
+      <div>
+        <h3>Services</h3>
+        <ul>
+          <li><a href="airport-transfers.html">Airport Transfers</a></li>
+          <li><a href="vehicles.html">Vehicles</a></li>
+          <li><a href="account-facilities.html">Account Facilities</a></li>
+          <li><a href="journey-updates.html">Journey Updates</a></li>
+          <li><a href="pay-cash-or-card.html">Pay Cash or Card</a></li>
+          <li><a href="download-our-app.html">Download Our App</a></li>
+        </ul>
       </div>
-    </footer>
+      <div>
+        <h3>Company</h3>
+        <ul>
+          <li><a href="areas-covered.html">Areas Covered</a></li>
+          <li><a href="become-a-driver.html">Become a Driver</a></li>
+          <li><a href="carbon-footprint.html">Carbon Footprint</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Legal &amp; social</h3>
+        <ul>
+          <li><a href="privacy-notice.html">Privacy Notice</a></li>
+          <li><a href="data-protection-policy.html">Data Protection Policy</a></li>
+          <li>
+            <a href="https://www.facebook.com/p/Acorn-Taxis-100083595871568/" target="_blank" rel="noopener noreferrer">Facebook</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/acorntaxis_tamworth/" target="_blank" rel="noopener noreferrer">Instagram</a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/company/acorn-taxis-tamworth" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap footer-bottom">
+      <span>© Acorn Taxis Ltd</span>
+    </div>
+  </footer>
   <nav class="sticky-cta" aria-label="Quick booking">
     <a class="call" href="tel:+44182763333">Call Now</a>
     <a class="book" href="https://booker.cab9.app?company=ACO&code=0951" target="_blank" rel="noopener noreferrer">Book Online</a>

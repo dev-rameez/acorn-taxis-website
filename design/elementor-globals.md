@@ -10,15 +10,15 @@ Working modern palette (pending final brand pack — see `CONTENT_FLAGS.md`).
 |------|-----|-----|
 | Navy | `#0B1F3A` | Header, primary text accents, dark bands |
 | Navy Deep | `#071627` | Footer, sticky bar background |
-| Gold | `#D4A84B` | Primary buttons, accents, underlines |
-| Gold Soft | `#E0BA63` | Hover states |
+| Gold | `#FCCC0A` | Primary buttons, accents, underlines (sampled from logo yellow) |
+| Gold Soft | `#FFDE14` | Hover states |
 | Off White | `#F5F7FA` | Page backgrounds, alternating sections |
 | Surface | `#FFFFFF` | Content boxes, light sections |
 | Charcoal | `#1C1C1C` | Body text |
 | Muted | `#5C6570` | Secondary text |
 | Border | `#D8DEE6` | Dividers, light borders |
 
-**Avoid:** bright yellow from the old site, neon accents, purple SaaS gradients, warm cream + serif brochure looks, glassmorphism.
+**Brand accent:** Use the logo yellow `#FCCC0A` for primary CTAs. Avoid neon accents, purple SaaS gradients, warm cream + serif brochure looks, glassmorphism.
 
 ## Global fonts
 
@@ -44,9 +44,9 @@ Line height body: ~1.6. Section max width: **1140px**.
 ## Buttons
 
 ### Primary — Book Online
-- Background: Gold `#D4A84B`
+- Background: Gold `#FCCC0A`
 - Text: Navy Deep `#071627`
-- Hover: Gold Soft `#E0BA63`
+- Hover: Gold Soft `#FFDE14`
 - Padding: 14px 28px
 - Border radius: 4px (not pill)
 - Font: DM Sans 700

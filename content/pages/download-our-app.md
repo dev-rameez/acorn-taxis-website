@@ -1,34 +1,42 @@
 # Download Our App
 
-**H1:** The Acorn Taxis app  
+**H1:** Book from your phone  
+
+**Eyebrow:** Acorn Taxis app  
 
 **Intro:**  
-Book your taxi from your phone, follow your journey, and pay by cash or card. Available on Android and iPhone.
+Set pickup and destination, book now or later, track your vehicle, and pay by card or cash — with promo codes and special offers when available.
+
+**Primary CTAs:**
+- Get it on Google Play  
+- Download on the App Store  
+
+**Secondary line:** Prefer the website? Book Online or call 01827 63333.
+
+**Hero visual:** Phone mockup — `preview/img/app/book.png`
 
 ---
 
-## What you can do
+## Features
+**H2:** Everything you need for a local journey  
 
-1. **Choose your journey** — set pickup and destination.  
-2. **Book at a time that suits you** — including advance bookings.  
-3. **Track your vehicle** when your taxi is on the way.  
-4. **Pay in the app by card**, or choose cash where available.  
-5. **Use promo codes and special offers** when they are available in the app.
+**Intro:** The Acorn Taxis app is built for Tamworth travel — from a quick pickup to a pre-booked airport run. Available on Android and iPhone.
 
----
-
-## Download
-
-- [Get it on Google Play](https://play.google.com/store/apps/details?id=com.autocab.taxibooker.acorntaxis.tamworth)  
-- [Download on the App Store](https://apps.apple.com/nz/app/acorn-taxis/id1078919421)  
+| Feature | Copy |
+|---------|------|
+| Book now or later | Choose ASAP for the next available vehicle, or schedule a pickup for a time that suits you. |
+| Follow your ride | See your journey on the map and track your vehicle when it is on the way. |
+| Pay your way | Pay by card in the app, or choose cash where available. Look out for promo codes and offers. |
+| Manage bookings | View upcoming bookings in the app and keep your travel details in one place. |
 
 ---
 
-## Prefer the website?
+## Screenshot strip
 
-You can also [book online](https://booker.cab9.app?company=ACO&code=0951) or call **01827 63333**.
+**Label:** Inside the app  
 
----
-
-## CTA
-Download for Android · Download for iPhone · Book Online
+| # | File | Caption |
+|---|------|---------|
+| 01 | `splash.png` | Sign in |
+| 02 | `home.png` | Quick booking |
+| 03 | `schedule.png` | Schedule ahead |

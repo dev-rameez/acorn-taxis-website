@@ -2,39 +2,44 @@
 
 **H1:** Contact Acorn Taxis  
 
-**Important notice (prominent):**  
-We do **not** take bookings by email. To book a taxi, please use **Book Online**, the **app**, or call **01827 63333**.
+**Eyebrow:** Get in touch  
+
+**Lead:**  
+Open 24/7 in Tamworth. We do not take bookings by email — use Book Online, the app, or call us.
 
 ---
 
-## Contact details
+## Quick actions (3 linked panels)
 
-**Address**  
+| Label | Value | Note | Link |
+|-------|-------|------|------|
+| Call now | 01827 63333 | Open 24/7 | `tel:+44182763333` |
+| Book online | Cab9 booker | Opens in a new tab | Cab9 |
+| Get the app | Android & iPhone | Book, track and pay | `/download-our-app/` |
+
+---
+
+## Visit or write to us + map
+
+**Address** (shown once — phone/hours live in the Call action panel above)  
 Acorn Taxis Limited  
 20 Lichfield St  
 Tamworth  
 B79 7QD  
 
-**Phone:** [01827 63333](tel:+44182763333)  
-**Email:** [acorntaxisltd@gmail.com](mailto:acorntaxisltd@gmail.com)  
-**Hours:** Open 24/7  
+**Email:** [acorntaxisltd@gmail.com](mailto:acorntaxisltd@gmail.com) — General enquiries only — not for bookings  
 
-**Calls:** Please note all our calls are recorded for training and monitoring purposes.
+**Calls note:** Please note all our calls are recorded for training and monitoring purposes.
 
----
-
-## Map
-
-Embed map for 20 Lichfield St, Tamworth, B79 7QD.
+**Map:** Embed for 20 Lichfield St, Tamworth, B79 7QD.
 
 ---
 
 ## Enquiry form
 
-Use the contact form for general questions only — not bookings.  
-Fields: see `docs/forms.md`.
+**H2:** Send a message  
 
----
+Use for general questions only — not bookings.
 
-## Quick actions
-Book Online · Call Now · Download the App
+Fields: Name*, Email*, Phone (optional), Subject*, Message* → `acorntaxisltd@gmail.com`  
+(See `docs/forms.md` for Elementor / CF7 build.)

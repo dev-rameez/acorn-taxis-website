@@ -9,14 +9,21 @@ With a fleet of **over 100 vehicles**, Acorn Taxis can match the right car to yo
 
 ## Vehicle types
 
+Use client fleet photos (WordPress: Image widget above each heading). Curated files in `preview/img/fleet/`.
+
 ### Saloon
+**Image:** `fleet-black-park.png`  
 Comfortable standard cars for everyday local journeys and shorter trips.
 
 ### Estate
+**Image:** `fleet-red-bridge.png`  
 Extra boot space when you are travelling with more luggage.
 
 ### 5–8 seater
+**Image:** `fleet-mpv-castle.png`  
 Larger vehicles for families, small groups and trips where more seats are needed.
+
+**Also available for layout:** `fleet-black-castle.png` (home trust band), `fleet-red-castle.png` (app page), `fleet-black-tree.png` (spare).
 
 ---
 
